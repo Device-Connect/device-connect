@@ -1,3 +1,37 @@
 {
-	no data
+	"phones":{
+		"brand":{
+			"galaxy":{
+				"galaxyS7":{
+					"wireless":{
+						
+					},
+					"wired":{
+
+					},
+					"software":{
+						
+					}
+				}
+			},
+			"iphone":{
+
+			},
+			"others":{
+
+			}
+		}
+	},
+	"computers":{
+
+	},
+	"homeAppliances":{
+
+	},
+	"gameConsoles":{
+
+	},
+	"projectors":{
+
+	}
 }
