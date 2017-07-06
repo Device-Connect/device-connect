@@ -1,1 +1,35 @@
+body {
+	font-family: 'Lato';
+}
 
+nav h2 {
+	margin-left: 8%;
+}
+
+#wrapper {
+	width: 100%;
+}
+
+.panels {
+	width: 48%;
+	min-width: 300px;
+	display: inline-block;
+}
+
+.panels h1 {
+	margin: 5em 0 0 5em;
+}
+
+.search {
+	margin: 1em 0 0 7em;
+}
+
+.panels button {
+	position: relative;
+	left: 17.4em;
+	margin-top: .2em;
+	border: none;
+	outline: none;
+	color: white;
+	background-color: black;
+}
