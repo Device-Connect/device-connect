@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import 'variables', 'extends';
+
+.body {
+	margin: 0;
+	padding: 0;
+	@extend %main-font;
+	background-color: #e9e7da;
+	color: #414141;
+}
+#navbar {
+	width: 100%;
+	height: 20%;
+	margin: 0;
+	background-color: #414141;
+	color: #e9e7da;
+
+	h2 {
+		margin: 0 0 0 6%;
+		display: inline-block;
+	}
+}
+
+
+#login-img {
+	height: 1.5em;
+	width: 1.5em;
+	float: right;
+	margin: .3em 2em 0 0;
+
+	@extend %clickable;
+}
+
+#wrapper {
+	width: 100%;
+}
+
+.panels {
+	width: 48%;
+	min-width: 300px;
+	display: inline-block;
+	border: {
+		width: 1px;
+		style: solid;
+		color: black;
+		radius: 15px;
+	}
+}
+
+.panels h1 {
+	margin: 5em 0 0 5em;
+}
+
+.search {
+	margin: 1em 0 0 7em;
+}
+
+.panels button {
+	position: relative;
+	left: 17.4em;
+	margin-top: .2em;
+	border: none;
+	outline: none;
+	color: white;
+	background-color: black;
+}
